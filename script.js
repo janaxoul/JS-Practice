@@ -1,17 +1,17 @@
+// var h1 = document.querySelector("h1");
+// h1.classList.add('makeItRed')
+// h1.classList.remove('makeItRed')
 
-import { createRoot } from 'react-dom/client';
 
-// Clear the existing HTML content
-document.body.innerHTML = '<div id="app"></div>';
+// var h1 =document.createElement('h1');
+// h1.textContent="created hey"
+// h1.classList.add("makeItRed")
 
-// Render your React component instead
-const root = createRoot(document.getElementById('app'));
-root.render(<h1>Hello, world</h1>);
+// document.querySelector("body").appendChild(h1);
 
-function handleClick(){
-    console.log("React Buttuon clicked");
-}
-const inputField=document.getElementById("myInput");
-inputField.addEventListener("keydown", function(event){
-    console.log("Key pressed: ",event.key);
-});
+// var img = document.createElement('img')
+// img.src="https://cdn.pixabay.com/photo/2025/05/14/16/21/city-9599967_1280.jpg"
+// document.querySelector('body').appendChild(img)
+
+
+document.querySelector('body').removeChild(img);

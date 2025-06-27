@@ -1,0 +1,49 @@
+/* Reset some default browser styles */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* Set a base font size for easier rem calculations */
+html {
+font-size: 100%; /* 1rem = 10px */
+}
+
+/* Ensure images don't exceed their container's width */
+img {
+display: block;
+max-width: 100%;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+list-style: none;
+padding-left: 0;
+}
+
+/* Enhance link underlines */
+a {
+text-underline-position: under;
+text-decoration-thickness: 0.1em;
+}
+
+/* Smooth scrolling for better user experience */
+html {
+scroll-behavior: smooth;
+}
+
+/* Provide interactive elements with a pointer cursor */
+button,
+input[type="submit"],
+input[type="button"] {
+cursor: pointer;
+}
+.makeItRed{
+    color: red;
+    font-family: bahnschrift;
+    font-size: 50px;
+}
