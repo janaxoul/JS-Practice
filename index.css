@@ -7,6 +7,10 @@ margin: 0;
 padding: 0;
 }
 
+
+
+
+
 /* Set a base font size for easier rem calculations */
 html {
 font-size: 100%; /* 1rem = 10px */
